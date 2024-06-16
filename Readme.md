@@ -17,3 +17,6 @@
 -> /blog/:id -> (Method: GET) -> (Fetch single blog)
 -> /blog/get -> (Method: GET) -> (Fetch all blog)
 -> /blog/:id -> (Method: PUT) -> (Update blog by ID)
+
+### For postman collection
+-> https://documenter.getpostman.com/view/31939009/2sA3JRXyee

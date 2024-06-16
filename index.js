@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 
 dotenv.config();
 import blogRoutes from "./blog.routes.js";
-// import userRoutes from "./user.routes.js";
+
 
 const app = express();
 
@@ -12,7 +12,7 @@ app.use(express.json());
 
 // register routes
 app.use(blogRoutes);
-// app.use(userRoutes);
+
 
 // port
 const PORT = process.env.APP_PORT ?? 5000;
